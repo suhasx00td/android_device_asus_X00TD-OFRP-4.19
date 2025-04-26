@@ -37,7 +37,10 @@ fi
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
  # Version & Variant
+export TARGET_ARCH=arm64
 export FOX_MAINTAINER_PATCH_VERSION=1
+export FOX_BUILD_TYPE="Stable"
+export FOX_DISABLE_APP_MANAGER=1
 
  # Binaries & Tools
 export FOX_USE_BASH_SHELL=1
