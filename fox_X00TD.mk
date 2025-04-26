@@ -40,9 +40,6 @@ OF_STATUS_INDENT_RIGHT := 48
 OF_CLOCK_POS := 1
 OF_OPTIONS_LIST_NUM := 9
 
-# Maintainer
-OF_MAINTAINER = "Beta_Test"
-
 # Recovery additional features	
 OF_ENABLE_ALL_PARTITION_TOOLS := 1
 OF_DISABLE_OTA_MENU := 1
